@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: momo-loop-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: momo
+      POSTGRES_PASSWORD: momo
+      POSTGRES_DB: momo_loop
+    ports:
+      - "5432:5432"
+    volumes:
+      - momo_loop_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U momo -d momo_loop"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  momo_loop_pgdata:

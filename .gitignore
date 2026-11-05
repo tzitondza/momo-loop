@@ -1,0 +1,21 @@
+# Python
+backend/.venv/
+**/__pycache__/
+*.pyc
+.Python
+backend/momo_loop.db
+*.db
+.env
+backend/.env
+backend/data/backups/
+
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.log

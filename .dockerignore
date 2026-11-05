@@ -1,0 +1,14 @@
+**/.venv/
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/.env
+**/backend/.env
+**/frontend/dist/
+**/.git/
+**/.DS_Store
+**/momo_loop.db
+**/backend/data/backups/
+**/*.log
+**/agent-transcripts/
+**/.cursor/

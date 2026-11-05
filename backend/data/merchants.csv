@@ -1,0 +1,249 @@
+merchant_id,name,location_id,merchant_category,accepts_momo,is_planted_gap
+M0001,Grocery #1 — Johannesburg CBD,LOC01,Grocery,Yes,False
+M0002,Grocery #2 — Johannesburg CBD,LOC01,Grocery,Yes,False
+M0003,Grocery #3 — Johannesburg CBD,LOC01,Grocery,Yes,False
+M0004,Transport #1 — Johannesburg CBD,LOC01,Transport,No,False
+M0005,Transport #2 — Johannesburg CBD,LOC01,Transport,Yes,False
+M0006,Transport #3 — Johannesburg CBD,LOC01,Transport,Yes,False
+M0007,Pharmacy #1 — Johannesburg CBD,LOC01,Pharmacy,Yes,False
+M0008,Pharmacy #2 — Johannesburg CBD,LOC01,Pharmacy,No,False
+M0009,Pharmacy #3 — Johannesburg CBD,LOC01,Pharmacy,Yes,False
+M0010,Hardware #1 — Johannesburg CBD,LOC01,Hardware,Yes,False
+M0011,Hardware #2 — Johannesburg CBD,LOC01,Hardware,Yes,False
+M0012,Hardware #3 — Johannesburg CBD,LOC01,Hardware,No,False
+M0013,Fuel #1 — Johannesburg CBD,LOC01,Fuel,Yes,False
+M0014,Fuel #2 — Johannesburg CBD,LOC01,Fuel,Yes,False
+M0015,Fuel #3 — Johannesburg CBD,LOC01,Fuel,Yes,False
+M0016,Restaurant #1 — Johannesburg CBD,LOC01,Restaurant,No,False
+M0017,Restaurant #2 — Johannesburg CBD,LOC01,Restaurant,Yes,False
+M0018,Restaurant #3 — Johannesburg CBD,LOC01,Restaurant,Yes,False
+M0019,Airtime Agent #1 — Johannesburg CBD,LOC01,Airtime Agent,Yes,False
+M0020,Airtime Agent #2 — Johannesburg CBD,LOC01,Airtime Agent,Yes,False
+M0021,Airtime Agent #3 — Johannesburg CBD,LOC01,Airtime Agent,Yes,False
+M0022,Wholesale Supplier #1 — Johannesburg CBD,LOC01,Wholesale Supplier,Yes,False
+M0023,Wholesale Supplier #2 — Johannesburg CBD,LOC01,Wholesale Supplier,Yes,False
+M0024,Wholesale Supplier #3 — Johannesburg CBD,LOC01,Wholesale Supplier,No,False
+M0025,Grocery #1 — Sandton,LOC02,Grocery,Yes,False
+M0026,Grocery #2 — Sandton,LOC02,Grocery,Yes,False
+M0027,Grocery #3 — Sandton,LOC02,Grocery,Yes,False
+M0028,Transport #1 — Sandton,LOC02,Transport,No,False
+M0029,Transport #2 — Sandton,LOC02,Transport,Yes,False
+M0030,Transport #3 — Sandton,LOC02,Transport,Yes,False
+M0031,Pharmacy #1 — Sandton,LOC02,Pharmacy,Yes,False
+M0032,Pharmacy #2 — Sandton,LOC02,Pharmacy,No,False
+M0033,Pharmacy #3 — Sandton,LOC02,Pharmacy,Yes,False
+M0034,Hardware #1 — Sandton,LOC02,Hardware,Yes,False
+M0035,Hardware #2 — Sandton,LOC02,Hardware,Yes,False
+M0036,Hardware #3 — Sandton,LOC02,Hardware,No,False
+M0037,Fuel #1 — Sandton,LOC02,Fuel,Yes,False
+M0038,Fuel #2 — Sandton,LOC02,Fuel,Yes,False
+M0039,Fuel #3 — Sandton,LOC02,Fuel,Yes,False
+M0040,Restaurant #1 — Sandton,LOC02,Restaurant,No,False
+M0041,Restaurant #2 — Sandton,LOC02,Restaurant,Yes,False
+M0042,Restaurant #3 — Sandton,LOC02,Restaurant,Yes,False
+M0043,Airtime Agent #1 — Sandton,LOC02,Airtime Agent,Yes,False
+M0044,Airtime Agent #2 — Sandton,LOC02,Airtime Agent,Yes,False
+M0045,Airtime Agent #3 — Sandton,LOC02,Airtime Agent,Yes,False
+M0046,Wholesale Supplier #1 — Sandton,LOC02,Wholesale Supplier,Yes,False
+M0047,Wholesale Supplier #2 — Sandton,LOC02,Wholesale Supplier,Yes,False
+M0048,Wholesale Supplier #3 — Sandton,LOC02,Wholesale Supplier,No,False
+M0049,Grocery #1 — Alexandra,LOC03,Grocery,No,True
+M0050,Grocery #2 — Alexandra,LOC03,Grocery,Yes,False
+M0051,Grocery #3 — Alexandra,LOC03,Grocery,No,True
+M0052,Transport #1 — Alexandra,LOC03,Transport,No,True
+M0053,Transport #2 — Alexandra,LOC03,Transport,No,True
+M0054,Transport #3 — Alexandra,LOC03,Transport,No,True
+M0055,Pharmacy #1 — Alexandra,LOC03,Pharmacy,Yes,False
+M0056,Pharmacy #2 — Alexandra,LOC03,Pharmacy,No,True
+M0057,Pharmacy #3 — Alexandra,LOC03,Pharmacy,No,True
+M0058,Hardware #1 — Alexandra,LOC03,Hardware,No,True
+M0059,Hardware #2 — Alexandra,LOC03,Hardware,No,True
+M0060,Hardware #3 — Alexandra,LOC03,Hardware,Yes,False
+M0061,Fuel #1 — Alexandra,LOC03,Fuel,Yes,False
+M0062,Fuel #2 — Alexandra,LOC03,Fuel,Yes,False
+M0063,Fuel #3 — Alexandra,LOC03,Fuel,No,False
+M0064,Restaurant #1 — Alexandra,LOC03,Restaurant,Yes,False
+M0065,Restaurant #2 — Alexandra,LOC03,Restaurant,Yes,False
+M0066,Restaurant #3 — Alexandra,LOC03,Restaurant,No,False
+M0067,Airtime Agent #1 — Alexandra,LOC03,Airtime Agent,Yes,False
+M0068,Airtime Agent #2 — Alexandra,LOC03,Airtime Agent,Yes,False
+M0069,Airtime Agent #3 — Alexandra,LOC03,Airtime Agent,Yes,False
+M0070,Wholesale Supplier #1 — Alexandra,LOC03,Wholesale Supplier,Yes,False
+M0071,Wholesale Supplier #2 — Alexandra,LOC03,Wholesale Supplier,Yes,False
+M0072,Wholesale Supplier #3 — Alexandra,LOC03,Wholesale Supplier,No,False
+M0073,Grocery #1 — Soweto (Orlando),LOC04,Grocery,Yes,False
+M0074,Grocery #2 — Soweto (Orlando),LOC04,Grocery,Yes,False
+M0075,Grocery #3 — Soweto (Orlando),LOC04,Grocery,Yes,False
+M0076,Transport #1 — Soweto (Orlando),LOC04,Transport,No,False
+M0077,Transport #2 — Soweto (Orlando),LOC04,Transport,Yes,False
+M0078,Transport #3 — Soweto (Orlando),LOC04,Transport,Yes,False
+M0079,Pharmacy #1 — Soweto (Orlando),LOC04,Pharmacy,Yes,False
+M0080,Pharmacy #2 — Soweto (Orlando),LOC04,Pharmacy,No,False
+M0081,Pharmacy #3 — Soweto (Orlando),LOC04,Pharmacy,Yes,False
+M0082,Hardware #1 — Soweto (Orlando),LOC04,Hardware,Yes,False
+M0083,Hardware #2 — Soweto (Orlando),LOC04,Hardware,Yes,False
+M0084,Hardware #3 — Soweto (Orlando),LOC04,Hardware,No,False
+M0085,Fuel #1 — Soweto (Orlando),LOC04,Fuel,Yes,False
+M0086,Fuel #2 — Soweto (Orlando),LOC04,Fuel,Yes,False
+M0087,Fuel #3 — Soweto (Orlando),LOC04,Fuel,Yes,False
+M0088,Restaurant #1 — Soweto (Orlando),LOC04,Restaurant,No,False
+M0089,Restaurant #2 — Soweto (Orlando),LOC04,Restaurant,Yes,False
+M0090,Restaurant #3 — Soweto (Orlando),LOC04,Restaurant,Yes,False
+M0091,Airtime Agent #1 — Soweto (Orlando),LOC04,Airtime Agent,Yes,False
+M0092,Airtime Agent #2 — Soweto (Orlando),LOC04,Airtime Agent,Yes,False
+M0093,Airtime Agent #3 — Soweto (Orlando),LOC04,Airtime Agent,Yes,False
+M0094,Wholesale Supplier #1 — Soweto (Orlando),LOC04,Wholesale Supplier,Yes,False
+M0095,Wholesale Supplier #2 — Soweto (Orlando),LOC04,Wholesale Supplier,Yes,False
+M0096,Wholesale Supplier #3 — Soweto (Orlando),LOC04,Wholesale Supplier,No,False
+M0097,Grocery #1 — Tembisa,LOC05,Grocery,Yes,False
+M0098,Grocery #2 — Tembisa,LOC05,Grocery,Yes,False
+M0099,Transport #1 — Tembisa,LOC05,Transport,No,False
+M0100,Transport #2 — Tembisa,LOC05,Transport,Yes,False
+M0101,Pharmacy #1 — Tembisa,LOC05,Pharmacy,Yes,False
+M0102,Pharmacy #2 — Tembisa,LOC05,Pharmacy,No,False
+M0103,Hardware #1 — Tembisa,LOC05,Hardware,Yes,False
+M0104,Hardware #2 — Tembisa,LOC05,Hardware,Yes,False
+M0105,Fuel #1 — Tembisa,LOC05,Fuel,No,False
+M0106,Fuel #2 — Tembisa,LOC05,Fuel,Yes,False
+M0107,Restaurant #1 — Tembisa,LOC05,Restaurant,Yes,False
+M0108,Restaurant #2 — Tembisa,LOC05,Restaurant,No,False
+M0109,Airtime Agent #1 — Tembisa,LOC05,Airtime Agent,Yes,False
+M0110,Airtime Agent #2 — Tembisa,LOC05,Airtime Agent,Yes,False
+M0111,Wholesale Supplier #1 — Tembisa,LOC05,Wholesale Supplier,No,False
+M0112,Wholesale Supplier #2 — Tembisa,LOC05,Wholesale Supplier,Yes,False
+M0113,Grocery #1 — Pretoria CBD,LOC06,Grocery,Yes,False
+M0114,Grocery #2 — Pretoria CBD,LOC06,Grocery,No,False
+M0115,Grocery #3 — Pretoria CBD,LOC06,Grocery,Yes,False
+M0116,Transport #1 — Pretoria CBD,LOC06,Transport,Yes,False
+M0117,Transport #2 — Pretoria CBD,LOC06,Transport,No,False
+M0118,Transport #3 — Pretoria CBD,LOC06,Transport,Yes,False
+M0119,Pharmacy #1 — Pretoria CBD,LOC06,Pharmacy,Yes,False
+M0120,Pharmacy #2 — Pretoria CBD,LOC06,Pharmacy,No,False
+M0121,Pharmacy #3 — Pretoria CBD,LOC06,Pharmacy,Yes,False
+M0122,Hardware #1 — Pretoria CBD,LOC06,Hardware,Yes,False
+M0123,Hardware #2 — Pretoria CBD,LOC06,Hardware,No,False
+M0124,Hardware #3 — Pretoria CBD,LOC06,Hardware,Yes,False
+M0125,Fuel #1 — Pretoria CBD,LOC06,Fuel,Yes,False
+M0126,Fuel #2 — Pretoria CBD,LOC06,Fuel,No,False
+M0127,Fuel #3 — Pretoria CBD,LOC06,Fuel,Yes,False
+M0128,Restaurant #1 — Pretoria CBD,LOC06,Restaurant,Yes,False
+M0129,Restaurant #2 — Pretoria CBD,LOC06,Restaurant,No,False
+M0130,Restaurant #3 — Pretoria CBD,LOC06,Restaurant,Yes,False
+M0131,Airtime Agent #1 — Pretoria CBD,LOC06,Airtime Agent,Yes,False
+M0132,Airtime Agent #2 — Pretoria CBD,LOC06,Airtime Agent,Yes,False
+M0133,Airtime Agent #3 — Pretoria CBD,LOC06,Airtime Agent,Yes,False
+M0134,Wholesale Supplier #1 — Pretoria CBD,LOC06,Wholesale Supplier,Yes,False
+M0135,Wholesale Supplier #2 — Pretoria CBD,LOC06,Wholesale Supplier,No,False
+M0136,Wholesale Supplier #3 — Pretoria CBD,LOC06,Wholesale Supplier,Yes,False
+M0137,Grocery #1 — Diepsloot,LOC07,Grocery,No,True
+M0138,Grocery #2 — Diepsloot,LOC07,Grocery,No,True
+M0139,Transport #1 — Diepsloot,LOC07,Transport,No,True
+M0140,Transport #2 — Diepsloot,LOC07,Transport,Yes,False
+M0141,Pharmacy #1 — Diepsloot,LOC07,Pharmacy,No,True
+M0142,Pharmacy #2 — Diepsloot,LOC07,Pharmacy,No,True
+M0143,Hardware #1 — Diepsloot,LOC07,Hardware,No,True
+M0144,Hardware #2 — Diepsloot,LOC07,Hardware,No,True
+M0145,Fuel #1 — Diepsloot,LOC07,Fuel,Yes,False
+M0146,Fuel #2 — Diepsloot,LOC07,Fuel,Yes,False
+M0147,Restaurant #1 — Diepsloot,LOC07,Restaurant,No,False
+M0148,Restaurant #2 — Diepsloot,LOC07,Restaurant,Yes,False
+M0149,Airtime Agent #1 — Diepsloot,LOC07,Airtime Agent,Yes,False
+M0150,Airtime Agent #2 — Diepsloot,LOC07,Airtime Agent,Yes,False
+M0151,Wholesale Supplier #1 — Diepsloot,LOC07,Wholesale Supplier,Yes,False
+M0152,Wholesale Supplier #2 — Diepsloot,LOC07,Wholesale Supplier,Yes,False
+M0153,Grocery #1 — Durban CBD,LOC08,Grocery,No,False
+M0154,Grocery #2 — Durban CBD,LOC08,Grocery,Yes,False
+M0155,Grocery #3 — Durban CBD,LOC08,Grocery,Yes,False
+M0156,Transport #1 — Durban CBD,LOC08,Transport,No,False
+M0157,Transport #2 — Durban CBD,LOC08,Transport,Yes,False
+M0158,Transport #3 — Durban CBD,LOC08,Transport,Yes,False
+M0159,Pharmacy #1 — Durban CBD,LOC08,Pharmacy,No,False
+M0160,Pharmacy #2 — Durban CBD,LOC08,Pharmacy,Yes,False
+M0161,Pharmacy #3 — Durban CBD,LOC08,Pharmacy,Yes,False
+M0162,Hardware #1 — Durban CBD,LOC08,Hardware,No,False
+M0163,Hardware #2 — Durban CBD,LOC08,Hardware,Yes,False
+M0164,Hardware #3 — Durban CBD,LOC08,Hardware,Yes,False
+M0165,Fuel #1 — Durban CBD,LOC08,Fuel,No,False
+M0166,Fuel #2 — Durban CBD,LOC08,Fuel,Yes,False
+M0167,Fuel #3 — Durban CBD,LOC08,Fuel,Yes,False
+M0168,Restaurant #1 — Durban CBD,LOC08,Restaurant,No,False
+M0169,Restaurant #2 — Durban CBD,LOC08,Restaurant,Yes,False
+M0170,Restaurant #3 — Durban CBD,LOC08,Restaurant,Yes,False
+M0171,Airtime Agent #1 — Durban CBD,LOC08,Airtime Agent,Yes,False
+M0172,Airtime Agent #2 — Durban CBD,LOC08,Airtime Agent,Yes,False
+M0173,Airtime Agent #3 — Durban CBD,LOC08,Airtime Agent,Yes,False
+M0174,Wholesale Supplier #1 — Durban CBD,LOC08,Wholesale Supplier,No,False
+M0175,Wholesale Supplier #2 — Durban CBD,LOC08,Wholesale Supplier,Yes,False
+M0176,Wholesale Supplier #3 — Durban CBD,LOC08,Wholesale Supplier,Yes,False
+M0177,Grocery #1 — Umlazi,LOC09,Grocery,No,False
+M0178,Grocery #2 — Umlazi,LOC09,Grocery,Yes,False
+M0179,Transport #1 — Umlazi,LOC09,Transport,Yes,False
+M0180,Transport #2 — Umlazi,LOC09,Transport,No,False
+M0181,Pharmacy #1 — Umlazi,LOC09,Pharmacy,Yes,False
+M0182,Pharmacy #2 — Umlazi,LOC09,Pharmacy,Yes,False
+M0183,Hardware #1 — Umlazi,LOC09,Hardware,No,False
+M0184,Hardware #2 — Umlazi,LOC09,Hardware,Yes,False
+M0185,Fuel #1 — Umlazi,LOC09,Fuel,Yes,False
+M0186,Fuel #2 — Umlazi,LOC09,Fuel,No,False
+M0187,Restaurant #1 — Umlazi,LOC09,Restaurant,Yes,False
+M0188,Restaurant #2 — Umlazi,LOC09,Restaurant,Yes,False
+M0189,Airtime Agent #1 — Umlazi,LOC09,Airtime Agent,Yes,False
+M0190,Airtime Agent #2 — Umlazi,LOC09,Airtime Agent,Yes,False
+M0191,Wholesale Supplier #1 — Umlazi,LOC09,Wholesale Supplier,Yes,False
+M0192,Wholesale Supplier #2 — Umlazi,LOC09,Wholesale Supplier,No,False
+M0193,Grocery #1 — Cape Town CBD,LOC10,Grocery,Yes,False
+M0194,Grocery #2 — Cape Town CBD,LOC10,Grocery,Yes,False
+M0195,Grocery #3 — Cape Town CBD,LOC10,Grocery,No,False
+M0196,Transport #1 — Cape Town CBD,LOC10,Transport,Yes,False
+M0197,Transport #2 — Cape Town CBD,LOC10,Transport,Yes,False
+M0198,Transport #3 — Cape Town CBD,LOC10,Transport,No,False
+M0199,Pharmacy #1 — Cape Town CBD,LOC10,Pharmacy,Yes,False
+M0200,Pharmacy #2 — Cape Town CBD,LOC10,Pharmacy,Yes,False
+M0201,Pharmacy #3 — Cape Town CBD,LOC10,Pharmacy,No,False
+M0202,Hardware #1 — Cape Town CBD,LOC10,Hardware,Yes,False
+M0203,Hardware #2 — Cape Town CBD,LOC10,Hardware,Yes,False
+M0204,Hardware #3 — Cape Town CBD,LOC10,Hardware,No,False
+M0205,Fuel #1 — Cape Town CBD,LOC10,Fuel,Yes,False
+M0206,Fuel #2 — Cape Town CBD,LOC10,Fuel,Yes,False
+M0207,Fuel #3 — Cape Town CBD,LOC10,Fuel,No,False
+M0208,Restaurant #1 — Cape Town CBD,LOC10,Restaurant,Yes,False
+M0209,Restaurant #2 — Cape Town CBD,LOC10,Restaurant,Yes,False
+M0210,Restaurant #3 — Cape Town CBD,LOC10,Restaurant,No,False
+M0211,Airtime Agent #1 — Cape Town CBD,LOC10,Airtime Agent,Yes,False
+M0212,Airtime Agent #2 — Cape Town CBD,LOC10,Airtime Agent,Yes,False
+M0213,Airtime Agent #3 — Cape Town CBD,LOC10,Airtime Agent,Yes,False
+M0214,Wholesale Supplier #1 — Cape Town CBD,LOC10,Wholesale Supplier,Yes,False
+M0215,Wholesale Supplier #2 — Cape Town CBD,LOC10,Wholesale Supplier,Yes,False
+M0216,Wholesale Supplier #3 — Cape Town CBD,LOC10,Wholesale Supplier,No,False
+M0217,Grocery #1 — Khayelitsha Site C,LOC11,Grocery,No,True
+M0218,Grocery #2 — Khayelitsha Site C,LOC11,Grocery,No,True
+M0219,Transport #1 — Khayelitsha Site C,LOC11,Transport,No,True
+M0220,Transport #2 — Khayelitsha Site C,LOC11,Transport,Yes,False
+M0221,Pharmacy #1 — Khayelitsha Site C,LOC11,Pharmacy,No,True
+M0222,Pharmacy #2 — Khayelitsha Site C,LOC11,Pharmacy,No,True
+M0223,Hardware #1 — Khayelitsha Site C,LOC11,Hardware,No,True
+M0224,Hardware #2 — Khayelitsha Site C,LOC11,Hardware,No,True
+M0225,Fuel #1 — Khayelitsha Site C,LOC11,Fuel,No,False
+M0226,Fuel #2 — Khayelitsha Site C,LOC11,Fuel,Yes,False
+M0227,Restaurant #1 — Khayelitsha Site C,LOC11,Restaurant,Yes,False
+M0228,Restaurant #2 — Khayelitsha Site C,LOC11,Restaurant,No,False
+M0229,Airtime Agent #1 — Khayelitsha Site C,LOC11,Airtime Agent,Yes,False
+M0230,Airtime Agent #2 — Khayelitsha Site C,LOC11,Airtime Agent,Yes,False
+M0231,Wholesale Supplier #1 — Khayelitsha Site C,LOC11,Wholesale Supplier,No,False
+M0232,Wholesale Supplier #2 — Khayelitsha Site C,LOC11,Wholesale Supplier,Yes,False
+M0233,Grocery #1 — Mitchells Plain,LOC12,Grocery,Yes,False
+M0234,Grocery #2 — Mitchells Plain,LOC12,Grocery,No,False
+M0235,Transport #1 — Mitchells Plain,LOC12,Transport,Yes,False
+M0236,Transport #2 — Mitchells Plain,LOC12,Transport,Yes,False
+M0237,Pharmacy #1 — Mitchells Plain,LOC12,Pharmacy,No,False
+M0238,Pharmacy #2 — Mitchells Plain,LOC12,Pharmacy,Yes,False
+M0239,Hardware #1 — Mitchells Plain,LOC12,Hardware,Yes,False
+M0240,Hardware #2 — Mitchells Plain,LOC12,Hardware,No,False
+M0241,Fuel #1 — Mitchells Plain,LOC12,Fuel,Yes,False
+M0242,Fuel #2 — Mitchells Plain,LOC12,Fuel,Yes,False
+M0243,Restaurant #1 — Mitchells Plain,LOC12,Restaurant,No,False
+M0244,Restaurant #2 — Mitchells Plain,LOC12,Restaurant,Yes,False
+M0245,Airtime Agent #1 — Mitchells Plain,LOC12,Airtime Agent,Yes,False
+M0246,Airtime Agent #2 — Mitchells Plain,LOC12,Airtime Agent,Yes,False
+M0247,Wholesale Supplier #1 — Mitchells Plain,LOC12,Wholesale Supplier,Yes,False
+M0248,Wholesale Supplier #2 — Mitchells Plain,LOC12,Wholesale Supplier,Yes,False

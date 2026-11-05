@@ -1,0 +1,13 @@
+location_id,name,region,lat,lng,urban
+LOC01,Johannesburg CBD,Gauteng,-26.2041,28.0473,True
+LOC02,Sandton,Gauteng,-26.1076,28.0567,True
+LOC03,Alexandra,Gauteng,-26.1033,28.0975,True
+LOC04,Soweto (Orlando),Gauteng,-26.2485,27.854,True
+LOC05,Tembisa,Gauteng,-25.9964,28.2268,False
+LOC06,Pretoria CBD,Gauteng,-25.7479,28.2293,True
+LOC07,Diepsloot,Gauteng,-25.9333,28.0167,False
+LOC08,Durban CBD,KwaZulu-Natal,-29.8587,31.0218,True
+LOC09,Umlazi,KwaZulu-Natal,-29.9667,30.8833,False
+LOC10,Cape Town CBD,Western Cape,-33.9249,18.4241,True
+LOC11,Khayelitsha Site C,Western Cape,-34.04,18.68,False
+LOC12,Mitchells Plain,Western Cape,-34.05,18.6167,False
