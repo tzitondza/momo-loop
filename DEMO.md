@@ -1,66 +1,170 @@
-# MoMo Loop — Demo scripts
+# MoMo Loop — Presenter walkthrough
 
-Use these with the live app. Default judge account: **`lead@mtn.demo` / `lead123`**.
+Follow this **top to bottom**. Do not skip ahead.  
+**Account:** `lead@mtn.demo` / `lead123`  
+**Before you start:** open the Render URL, wait until login loads (wake cold start with `/api/health` if needed).
 
-Caveats to say once early: cash-out after inflow is a **signal**, not proof; recoverable value is **modelled**; data is **synthetic** with planted gaps for ranking checks.
-
----
-
-## 90-second pitch (no click-through)
-
-1. **Problem** — MoMo value leaks to cash when the next merchant cannot accept it.  
-2. **Insight** — Inflow → cash-out within 30 minutes flags probable cash-out boundaries.  
-3. **Product** — MoMo Loop ranks where expanding acceptance keeps the most value digital.  
-4. **Proof** — Live dashboard: leak KPIs → boundary map → scored opportunities → pipeline → impact simulator.  
-5. **Ask** — Pilot on anonymised OpCo data; measure merchant-payment lift in one corridor.
+Legend: **SAY** = speak · **CLICK** = do on screen · **POINT** = gesture only
 
 ---
 
-## 3-minute live demo (recommended)
+## 0. Pre-flight (30 seconds, before judges look)
 
-**Login:** `lead@mtn.demo` / `lead123` (national scope).
-
-| Time | Where | Say / do |
-| --- | --- | --- |
-| 0:00 | Login | “Internal tool for acquisition — roles and territory scoping.” |
-| 0:20 | **Overview** | Point to leakage / recoverable value / opportunity count. “Value enters the wallet, then exits as cash.” |
-| 0:50 | **Boundaries** | Open a hotspot. “Inflow then cash-out in 30 minutes — probable boundary, not a failed payment claim.” |
-| 1:20 | **Opportunities** | Top row score + reasons. Optional: Export CSV/PDF. “Transparent scoring, not a black-box model.” |
-| 1:50 | **Pipeline** | **Add to pipeline** → move to *reviewing* / *assigned*. “Turns insight into merchant-team workflow.” |
-| 2:20 | **Simulate** | Raise merchants / recovery → save scenario. “What if we onboard here?” |
-| 2:45 | Close | “Next: validate on anonymised MoMo data, pilot one area, measure digital payment lift.” |
-
-**Optional 20s contrast:** log out → `viewer@mtn.demo` / `viewer123` → Overview only shows **Gauteng**. “Same product, OpCo-scoped.”
+1. Open your deployed URL.  
+2. Confirm login screen is visible.  
+3. Keep this page on a second screen / phone as your script.  
+4. Have `viewer@mtn.demo` / `viewer123` ready only if you have extra time.
 
 ---
 
-## 5-minute judge deep-dive
+## 1. Open — problem (≈20s)
 
-Follow the 3-minute path, then add:
+**SAY:**  
+“MoMo value often leaves the digital ecosystem. A customer receives money in their wallet, but the next merchant they need cannot accept MoMo — so they cash out, and the digital chain breaks.”
 
-1. **Admin** (`admin@mtn.demo` / `admin123`) — Refresh analytics + CSV upload story (“batch anonymised feeds”).  
-2. **Ranking quality** — Call out planted gaps / hit-rate if shown on Opportunities.  
-3. **Path to production** — Postgres store, nightly rematerialise, JWT roles, audit on exports/pipeline — “built like an internal platform, not a slide deck.”
+**SAY:**  
+“MoMo Loop finds those probable cash-out boundaries and ranks where expanding merchant acceptance would keep the most value digital.”
 
 ---
 
-## One-line answers (if asked)
+## 2. Login (≈15s)
 
-| Question | Answer |
+**CLICK:** Email → `lead@mtn.demo`  
+**CLICK:** Password → `lead123`  
+**CLICK:** Sign in  
+
+**SAY:**  
+“This is an internal acquisition tool — role-based access and territory scoping. I’m signed in as an acquisition lead with national view.”
+
+Wait until **Overview** loads.
+
+---
+
+## 3. Overview — show the leak (≈40s)
+
+You should be on **Overview**.
+
+**POINT** at the main KPI cards (leakage / cash-out / recoverable / opportunities).
+
+**SAY:**  
+“Here’s the ecosystem view. We measure how much value sits behind probable cash-out boundaries — money that entered the wallet and exited as cash soon after — and how much we estimate could stay digital if acceptance expands.”
+
+**POINT** at “last refreshed” / scope if visible.
+
+**SAY:**  
+“Data is synthetic for the PoC, refreshed from Postgres — same shape we’d use with anonymised OpCo feeds.”
+
+---
+
+## 4. Boundaries — show the signal (≈45s)
+
+**CLICK:** nav → **Cash-out boundaries**
+
+Wait for map / list to render.
+
+**SAY:**  
+“We detect a probable boundary when a wallet inflow is followed by a cash-out within thirty minutes. That is a signal — not proof that a merchant rejected MoMo.”
+
+**CLICK:** select / open one hotspot or journey (first strong location on the list or map).
+
+**SAY:**  
+“These journeys highlight where digital spending likely stops. That’s where acceptance gaps matter most.”
+
+---
+
+## 5. Opportunities — show the ranking (≈45s)
+
+**CLICK:** nav → **Opportunities**
+
+Wait for the ranked table.
+
+**POINT** at the **top row** — score and reason text.
+
+**SAY:**  
+“Opportunities are scored transparently — boundary value, affected customers, frequency, acceptance gap, and feasibility. Not a black box.”
+
+**POINT** at estimated recoverable value on the top row.
+
+**SAY:**  
+“This is modelled recoverable value under stated assumptions — not claimed MTN revenue.”
+
+**Optional if smooth:**  
+**CLICK:** Export CSV or PDF  
+**SAY:** “Acquisition teams can take this list into the field.”
+
+**CLICK:** **Add to pipeline** on the top opportunity (or first available button).
+
+---
+
+## 6. Pipeline — show the workflow (≈40s)
+
+**CLICK:** nav → **Acquisition pipeline**
+
+**SAY:**  
+“Insight becomes work. Identified opportunities move through reviewing, assigned, onboarded, and measured.”
+
+**CLICK:** change status of the item you added → **reviewing** (or **assigned**).  
+If there’s an assignee dropdown, pick a name.
+
+**SAY:**  
+“So merchant teams aren’t staring at a chart — they’re running a pipeline.”
+
+---
+
+## 7. Simulator — show the “what if” (≈40s)
+
+**CLICK:** nav → **Impact simulator**
+
+**CLICK:** pick the same location / category if prompted.  
+**CLICK:** increase merchants to onboard and/or recovery slightly.  
+Watch the projected numbers update.
+
+**SAY:**  
+“Before we commit field effort, we model retention lift under different onboarding assumptions.”
+
+**CLICK:** save scenario (if the save form is visible).  
+Name it something short like `Demo corridor`.
+
+**SAY:**  
+“Leads can save scenarios and come back to them.”
+
+---
+
+## 8. Close — ask (≈20s)
+
+**SAY:**  
+“Path forward: validate on anonymised MoMo data, pilot one corridor, and measure actual merchant-payment lift. MoMo Loop is how we choose where to act first.”
+
+**STOP.** Smile. Hands off the mouse. Take questions.
+
+---
+
+## Extra time only (≈30s) — region scope
+
+Only if judges still want more.
+
+**CLICK:** Sign out  
+**CLICK:** login `viewer@mtn.demo` / `viewer123`  
+**SAY:** “Same product, Gauteng-only scope — how an OpCo viewer would see it.”  
+**CLICK:** Sign out → back to `lead@mtn.demo` if needed for Q&A.
+
+---
+
+## If something breaks mid-demo
+
+| Problem | Do this |
 | --- | --- |
-| Is every cash-out a rejected merchant? | No — we score **probable** boundaries from timing patterns. |
-| Is recoverable value real revenue? | No — modelled under stated recovery / feasibility assumptions. |
-| Why not ML? | Transparent rules first; ML when we have labelled OpCo outcomes. |
-| Why South Africa? | Representative multi-region OpCo story; method ports across markets. |
-| Who uses it? | Analysts rank; acquisition leads run pipeline; admins refresh/import data. |
+| Page spinning | Refresh once; say “waking the free-tier instance.” |
+| Login fails | Re-type password carefully; try `admin@mtn.demo` / `admin123` as backup. |
+| Wrong tab | Use the top nav labels exactly as written above. |
+| Lost your place | Jump to the section heading you’re on — each section stands alone. |
+| Blank map/table | Refresh that page; keep talking the SAY line while it loads. |
 
 ---
 
-## Accounts (local / demo)
+## Q&A cheat sheet (one line each)
 
-| Email | Password | Show |
-| --- | --- | --- |
-| `lead@mtn.demo` | `lead123` | Main demo (national) |
-| `viewer@mtn.demo` | `viewer123` | Region scope (Gauteng) |
-| `analyst@mtn.demo` | `analyst123` | WC ranking / simulator |
-| `admin@mtn.demo` | `admin123` | Refresh + CSV import |
+- **Is every cash-out a failed merchant payment?** → No — probable boundary from timing, not proof.  
+- **Is recoverable value real revenue?** → No — modelled under stated assumptions.  
+- **Why not ML yet?** → Transparent rules first; ML when we have labelled OpCo outcomes.  
+- **Who uses this?** → Analysts rank, leads run pipeline, admins refresh and import data.
